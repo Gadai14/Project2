@@ -227,7 +227,7 @@ footer button {
         transform: translate(-50%, -50%);
         width: 90%; /* Adjust the width as needed */
         max-width: 300px; /* Set a max-width if needed */
-        padding:6px 10px 7px 0px; /* Adjust padding as needed */
+        padding:6px 8px 7px 0px; /* Adjust padding as needed */
         border: none;
         border-radius: 28px;
     }
@@ -244,13 +244,18 @@ footer button {
     .quiz_box {
         position: fixed;
         width: 80%;
+        margin-top: 5px;
+        margin-bottom: 10px;
         padding: 8px 20px;
         border-radius: 0px;
         max-width: 400px;
-        height: 100vh;
+        height:98vh;
+      
     }
 
+
     .quiz_box header {
+        margin-top: 10px;
         padding: 0 15px; /* Adjust padding for smaller screens */
     }
 
@@ -284,6 +289,8 @@ footer button {
     }
    
   
+
+
 }
 
     
